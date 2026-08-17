@@ -1,0 +1,34 @@
+-- sections --
+:7  keybinds hyprland
+:18 keybinds vscode
+:22 keybind spotify-tui
+:26 terminal commands
+
+-- keybinds hyprland --
+win q - terminal
+win r - launcher
+win c - close window
+win v - toggle floating
+win m - exit hyprland
+win shift / alt  1-9 - move window to workspace 1-9
+win arrows / hjkl  - move focus around
+win shift arrows / hjkl - moves windows around
+win ` - change the windows layout
+
+-- keybinds vscode --
+Ctrl K U - remove comments
+Ctrl K C - add comments
+
+-- keybinds spotify tui --
+g s - search
+ctrl s - shuffle
+
+-- terminal --
+yazi - file manager
+fetch - os info
+pwd - Print Working Directory
+pacman -Rncs - uninstall package
+ani-cli {name}  - anime watcher
+hyprctl monitors all - show monitors info (eDP-1 is the laptop monitor)
+hyprconf - opens the hyprland config file
+exec bash - reload the .bashrc script
